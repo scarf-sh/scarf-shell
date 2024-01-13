@@ -1,6 +1,12 @@
-# Scarf.sh 
+scarf-shell
 
 A shell utility for adding Scarf analytics to any shell or bash script.
+
+## Setup
+
+You'll need a Scarf account and a File Package created. 
+
+Read more here: https://docs.scarf.sh
 
 ## Usage
 
