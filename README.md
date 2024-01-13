@@ -6,6 +6,8 @@ A shell utility for adding Scarf analytics to any shell or bash script.
 
 You'll need a Scarf account and a File Package created. 
 
+Note that backend URLs will not be relevant here as there is no redirect needed, but as of writing this README our UI requires them to set up a File Package. Put anything you want there, it will be discarded (eg, "https://not-needed.com").
+
 Read more here: https://docs.scarf.sh
 
 ## Usage
