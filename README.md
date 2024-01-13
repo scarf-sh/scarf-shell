@@ -1,4 +1,4 @@
-scarf-shell
+# scarf-shell
 
 A shell utility for adding Scarf analytics to any shell or bash script.
 
