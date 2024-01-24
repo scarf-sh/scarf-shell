@@ -4,9 +4,7 @@ A shell utility for adding Scarf analytics to any shell or bash script.
 
 ## Setup
 
-You'll need a Scarf account and a File Package created. 
-
-Note that backend URLs will not be relevant here as there is no redirect needed, but as of writing this README our UI requires them to set up a File Package. Put anything you want there, it will be discarded (eg, `https://not-needed.com`).
+You'll need a Scarf account and a File Package created. Enable `Event Collection Only`.
 
 Read more here: https://docs.scarf.sh
 
@@ -14,7 +12,7 @@ Read more here: https://docs.scarf.sh
 
 Populate a few global `SCARF_` prefixed configuration variables, import the `scarf.sh` script from wherever you'd like to bundle it, and call immediately invoke the `setup_scarf_telemetry` function.
 
-Scarf will send a small payload right before your script exits. 
+Scarf will send a small payload right before your script exits.
 
 ```sh
 # Your Scarf Gateway URL
